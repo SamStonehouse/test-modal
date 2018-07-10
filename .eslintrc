@@ -1,0 +1,49 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+      "arrow-body-style": "off",
+      "arrow-parens": "off",
+      "class-methods-use-this": "off",
+      "comma-dangle": ["error", {
+        "arrays": "never",
+        "objects": "only-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      }],
+      "function-paren-newline": "off",
+      "import/first": "warn",
+      "import/no-extraneous-dependencies": "off",
+      "import/no-named-as-default": "off",
+      "import/no-named-as-default-member": "off",
+      "import/prefer-default-export": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "jsx-quotes": ["error", "prefer-single"],
+      "jsx-a11y/label-has-for": "off",
+      "max-len": ["error", { "code": 180 }],
+      "no-console": "off",
+      "no-param-reassign": "off",
+      "no-plusplus": "off",
+      "no-throw-literal": "off",
+      "no-underscore-dangle": "off",
+      "object-curly-newline": "off",
+      "padded-blocks": "off",
+      "prefer-destructuring": "off",
+      "react/no-typos": "warn",
+      "react/jsx-boolean-value": "off",
+      "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
+      "react/jsx-filename-extension": "off",
+      "react/prefer-stateless-function": "warn",
+      "space-before-function-paren": ["error", {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }],
+      "react/no-unused-prop-types": "warn",
+      "no-debugger": "warn"
+    },
+    "env": {
+      "browser": true
+    }
+}
